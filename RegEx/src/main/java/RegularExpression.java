@@ -4,12 +4,13 @@
  */
 public interface RegularExpression
 {
-
-
-  boolean alternate(RegularExpression r1, RegularExpression r2);
-
-  boolean repeats(RegularExpression r1);
-
+  /**
+   * Checks if there is a match.
+   *
+   * @param regex the regex as a string
+   * @return true if it is a match, false otherwise
+   */
+  boolean match(String regex);
 
 }
 
