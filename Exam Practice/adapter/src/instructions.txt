@@ -1,0 +1,30 @@
+# Practice Exam: Library Management System
+
+## Question 1 (10 points)
+
+The library wants users to create **Reading Lists**. A Reading List is a personal collection of media items that a user wants to read/watch/listen to.
+
+### Requirements:
+- Upon construction, a Reading List has a **name** and its internal collection of items is **empty**. If any arguments are null, throw appropriate exceptions.
+- Clients can **add items** to the reading list. If the item does not exist in the library catalog or is null, throw appropriate exceptions.
+- Clients can **remove items** from the reading list. If the item is not on the list or is null, throw appropriate exceptions.
+- Clients can ask for the **name** of the reading list.
+- Clients can ask for the **number of items** on the reading list.
+- Clients can ask for **all items** on the reading list that match a given filter. Returns items sorted alphabetically. If filter is null, throw exception. If no items match or list is empty, return an empty list.
+- Clients can ask if a **specific item is on** the reading list. If item is null, throw exception.
+
+**Important:** If items are added/removed from the catalog, future calls to Reading List methods should reflect those changes.
+
+**Write the interface for `ReadingList`.**
+
+---
+
+## Question 2 (25 points)
+
+**Implement the `ReadingList` interface** in a class called `SimpleReadingList`.
+
+You must **reuse as much of the given code as possible**. You **cannot edit any existing code**.
+
+---
+
+## Time: 30-40 minutes

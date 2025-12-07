@@ -1,0 +1,4 @@
+public enum MediaType
+{
+  BOOK, AUDIOBOOK, DVD, MAGAZINE, NEWSPAPER, VIDEOGAME
+}

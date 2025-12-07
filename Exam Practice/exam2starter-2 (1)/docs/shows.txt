@@ -1,7 +1,7 @@
 ## Format of the file has each show in 3 lines.
 ## First line is the name of the show.
 ## Second line is a comma-separated list of genres.
-## Third line is a comma-separated list of rpgshopping.
+## Third line is a comma-separated list of ratings.
 ## Spaces between each line are to make the file easier to read.
 
 Plushies Alive

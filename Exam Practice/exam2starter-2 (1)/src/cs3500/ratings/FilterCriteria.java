@@ -1,4 +1,3 @@
-package cs3500.ratings;
 
 /**
  * Function interface used for filtering in the
@@ -6,11 +5,13 @@ package cs3500.ratings;
  * determining if a Show should be selected, not
  * for actually calculating data.
  */
-public interface FilterCriteria {
+public interface FilterCriteria
+{
 
   /**
    * Returns true if the criteria states this show
    * should have its data retrieved
+   *
    * @param show the show to decide on
    * @return true iff it passes the criteria
    */

@@ -7,7 +7,13 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Design Patterns/Adapter/src/cs3500" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Design Patterns/Strategy and Decorators/Scrollbars/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Design Patterns/Strategy and Decorators/SortStrategies/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Design Patterns/Strategy and Decorators/TicTacToe/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Design Patterns/Strategy and Decorators/WriterDecorators/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Exam Practice/exam2starter-2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exam Practice/adapter/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exam Practice/exam2starter-2 (1)/src/cs3500/ratings" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
