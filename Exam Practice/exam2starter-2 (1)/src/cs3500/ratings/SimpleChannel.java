@@ -12,7 +12,7 @@ public class SimpleChannel implements Channel
     if (name == null || db == null)
     {
       throw new IllegalArgumentException("Cannot have null arguments");
-    } 
+    }
 
     shows = new ArrayList<>();
     this.name = name;
