@@ -1,0 +1,32 @@
+# Practice Exam: Music Streaming Service
+
+You are on co-op for a music streaming service. The code provided is part of the company's internal system for managing songs and playlists. Familiarize yourself with the codebase before starting.
+
+---
+
+## Question 1 (10 points)
+
+The `Playlist` interface already has basic functionality, but it's not versatile enough. There are many ways a user might want to search or filter their playlist. Below are a few examples:
+
+- Find all songs longer than 3 minutes
+- Find all songs by a specific artist
+- Find all ROCK songs
+- Find all songs whose title contains the word "Love"
+
+Design an interface called `SearchablePlaylist` that **still behaves like a Playlist** but also allows you to find all Songs that match some criteria.
+
+A full credit solution must also work with criteria that are not listed in the examples and allows users to write their own criteria. You must also design any interfaces not provided by Java that your solution uses.
+
+---
+
+## Question 2 (25 points)
+
+Implement the class `SmartPlaylist` that implements your interface from Question 1.
+
+It must reuse as much code as possible without modifying any existing code.
+
+---
+
+## Time Limit: 30-35 minutes
+
+Good luck!
